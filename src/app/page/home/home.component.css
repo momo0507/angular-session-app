@@ -1,0 +1,12 @@
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  width: 100%;
+  padding:0;
+}
+li {
+  margin-bottom: 5px;
+}

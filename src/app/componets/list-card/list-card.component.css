@@ -1,0 +1,58 @@
+div {
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3px;
+  position: relative;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dl dt {
+  width: 30%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+dl dd {
+  width: 35%;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+a {
+  position: absolute;
+  background-color: lightslategray;
+  color: white;
+  width: 80px;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.edit-btn {
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  right: 3%;
+}
+
+.delete-btn {
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  right: 20%;
+}
+
+.untreated {
+  background-color: #e6c0bd;
+}
+.complete {
+  background-color: #bde1d6;
+}
+.processing {
+  background-color: #bae3f9;
+}

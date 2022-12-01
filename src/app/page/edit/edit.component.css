@@ -1,0 +1,38 @@
+section {
+  width: 80%;
+  margin: 50px auto;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+div {
+  max-width: 300px;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+}
+input {
+  max-width: 300px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+select {
+  max-width: 300px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+a {
+  background-color: lightslategray;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+<div
+  [ngClass]="{
+    untreated: task.state == '未着手',
+    complete: task.state == '完了',
+    processing: task.state == '処理中'
+  }"
+>
+  <dl>
+    <dt>{{ task.title }}</dt>
+    <dd>{{ task.detail }}</dd>
+  </dl>
+  <a routerLink="/edit/{{ id }}" class="edit-btn">編集</a>
+  <a (click)="deleteTask()" class="delete-btn">削除</a>
+</div>
